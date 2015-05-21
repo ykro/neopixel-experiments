@@ -46,8 +46,6 @@ board.on("ready", function() {
 
         arrayToShow[i] = Math.abs(avgValue/avgGroupSize);
         arrayToShow[i] = Math.round(arrayToShow[i] % matrixRows);
-        
-        
       }
 
       console.log(arrayToShow);
